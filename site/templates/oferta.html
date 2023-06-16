@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+
+<body class="backgrnd_crab">
+
+<div class="wrapper">
+     <div class="form">
+         <h1 class="title">Credit {{ produs }}</h1>
+
+         <form action="{{ url_for('prediction') }}" method="post">
+             <div class="control-from">
+                 <h2>Aceasta este limita creditara recomandata.</h2>
+                 <h2>{{ credit_lim }}</h2>
+             </div>
+
+             <div class="control-from">
+                 <label for="loan-amount">Care este suma creditului dorit?</label>
+                 <input type="text" id="loan-amount" name="loan-amount" required>
+             </div>
+
+             <div class="button">
+                 <input type="submit" value="Submit">
+             </div>
+         </form>
+     </div>
+ </div>
+</body>
+</html>
