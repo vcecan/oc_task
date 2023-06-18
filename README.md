@@ -8,8 +8,8 @@
    3. credit_limit.ipynb: Antrenarea unui model pentru prezicerea limitei de creditare
    4. Final.ipynb O executie mai ordonata a notebookurilor anterioare,plus metode diferite
    5. credit_risk.ipynb Aplicarea WOE si IV
-b. Directoriul site- Este o aplicatie web creata cu ajutorul Flask, care imita procesul de aplicare a unui credit,ruleaza pe localhost, la acest site am realizat si un docker container
-    ### linkul docker
+ b. Directoriul site- Este o aplicatie web creata cu ajutorul Flask, care imita procesul de aplicare a unui credit,ruleaza pe localhost, la acest site am realizat si un docker container
+### linkul docker
       https://hub.docker.com/repository/docker/vcecan/ocean_c_taskdocker-oc_task/general
       docker push vcecan/ocean_c_taskdocker-oc_task
  c. Directoriul Streamlit- am realizat o pagina web cu ajutorul bibliotecii Streamlit pentru implementarea modelului ce foloseste WOE si IV, contine aplicatia app.py,la rularea careia se deschide o pagina web
